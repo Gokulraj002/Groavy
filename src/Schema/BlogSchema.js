@@ -1,6 +1,6 @@
 export const blogPostingSchema1 = {
   "@context": "https://schema.org",
-  "@type": "Managing Farmland Blog",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.groavy.com/blogs/grow-your-future-benefits-of-owning-managing-farmland"
@@ -26,7 +26,7 @@ export const blogPostingSchema1 = {
 
 export const blogPostingSchema2 = {
   "@context": "https://schema.org",
-  "@type": "MahoganyTrees Blogs",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.groavy.com/blogs/elegantorchards-embraces-green-growth-with-mahoganytrees"
@@ -51,7 +51,7 @@ export const blogPostingSchema2 = {
 };
 export const blogPostingSchema3={
 "@context": "https://schema.org",
-"@type": "Sandalwood Blogs",
+"@type": "BlogPosting",
 "mainEntityOfPage": {
   "@type": "WebPage",
   "@id": "https://www.groavy.com/blogs/invest-in-sandalwood-on-your-farm-with-elegant-orchards-estate"
@@ -77,7 +77,7 @@ export const blogPostingSchema3={
 export const blogPostingSchema4 ={
 
 "@context": "https://schema.org",
-"@type": "Farmland vs Mutual Funds Blog",
+"@type": "BlogPosting",
 "mainEntityOfPage": {
   "@type": "WebPage",
   "@id": "https://www.groavy.com/blogs/farmland-vs-mutual-funds-which-offers-better-investment-returns"
