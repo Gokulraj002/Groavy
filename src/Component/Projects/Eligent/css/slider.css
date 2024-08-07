@@ -1,0 +1,56 @@
+.small-image{
+  width: 90px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.modal-content {
+
+  border-radius: 50px ;
+}
+.modal-content
+#eligantform{
+  background-color: rgb(245, 240, 240);
+
+}
+.modal-content
+.form-group label {
+  color: black;
+  display: none;
+
+}
+  .modal-content
+#eligantform
+input {
+background-color: rgba(48, 27, 27, 0.253);
+  border: none !important;
+  border-radius: 50px;
+  /* backdrop-filter: blur(5px); */
+  box-shadow:none;
+}
+.modal-content
+#eligantform
+h3 {
+  color: black ;
+}
+
+#eligantform
+h3 {
+  color: rgb(255, 255, 255) ;
+}
+.modal-content
+.text-danger{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .small-image{
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+  }
+  .nearby-location-list{
+    text-align: center;
+  }
+
+}

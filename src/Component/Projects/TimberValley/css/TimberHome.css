@@ -1,0 +1,64 @@
+
+
+    .pos {
+      top: 50%;
+      left: 50%;
+    }
+    .imgg{
+      width: 20%;
+    }
+
+  #head{
+    font-family: "EB Garamond", serif;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 4px 4px 7px black;
+  }
+  @media (min-width: 772px) and (max-width: 992px) {
+    #head{
+      font-family: "EB Garamond", serif;
+      font-size: 30px;
+      font-weight: 700;
+      text-shadow: 6px 7px 6px black;
+    }
+    .imggg{
+      width: 40%;
+    }
+    .pos {
+      top: 55%;
+      left: 50%;
+    }
+  }
+  
+   
+    @media (max-width: 700px) {
+
+
+      .pos {
+        top: 50%;
+        left: 50%;
+      }
+      .imgg{
+        width: 50% !important;
+      }
+      #head{
+        font-family: "EB Garamond", serif;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 2px 3px 3px black;
+      }
+      .pos img {
+        width: 55%;
+}
+}
+
+
+.timber-button{
+  background:rgb(70,182,94,0.8);
+  color:white;
+}
+.timber-button:hover{
+  background:rgb(70,182,94,01);
+  color:white;
+}
