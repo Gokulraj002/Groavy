@@ -38,7 +38,7 @@ function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
-        <Analytics />
+      <Analytics />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Homes />} />
