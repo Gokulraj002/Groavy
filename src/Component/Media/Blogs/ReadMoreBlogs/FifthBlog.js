@@ -196,7 +196,7 @@ const FifthBlog = () => {
             <source srcSet={Banner1} media="(max-width: 699px)" />
             <img
               src={Banner}
-              alt="Farmland Investment"
+              alt="Next Big Investment Should Be Farmland"
               width={"100%"}
               height={"auto"}
               className="w-100"

@@ -74,7 +74,7 @@ const Address = () => {
                     href="tel:6366829999"
                     className="text-black text-decoration-none para-color1"
                   >
-                    +91 6366829999
+                    +91 63668 29999
                   </a>
                 </p>
               </div>
