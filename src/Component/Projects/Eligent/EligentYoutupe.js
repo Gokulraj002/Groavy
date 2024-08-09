@@ -44,7 +44,7 @@ const EligentYoutupe = () => {
               ></iframe>
             </Modal.Body>
             <Modal.Footer>
-              <button className="btn-danger d-block mx-auto" onClick={handleClose}>
+              <button className="btn btn-danger d-block mx-auto" onClick={handleClose}>
                 Close
               </button>
             </Modal.Footer>

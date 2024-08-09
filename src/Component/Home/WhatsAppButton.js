@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import './whatsappbutton.css';
-import ReactGA from "react-ga4"; // Import ReactGA
 
 const WhatsAppButton = () => {
     const [showScrollButton, setShowScrollButton] = useState(false);
@@ -31,14 +30,10 @@ const WhatsAppButton = () => {
         });
     };
 
-    const handleWhatsAppClick = () => {
-        ReactGA.event({
-            category: 'Button',
-            action: 'WhatsApp Button Clicked',
-            label: 'HomePage WhatsApp Button',
-        });
-        window.open('https://wa.me/6366829999', '_blank');
-    };
+    // const handleWhatsAppClick = () => {
+    
+    //     window.open('https://wa.me/+15557000327', '_blank');
+    // };
     
     return (
         <>
@@ -48,9 +43,9 @@ const WhatsAppButton = () => {
                 </div>
             )}
 
-            <div className="whatsapp-button rounded-circle btn bounce-in-top-whatsapp" data-bs-toggle="tooltip" title="Chat with us" onClick={handleWhatsAppClick}>
+            {/* <div className="whatsapp-button rounded-circle btn bounce-in-top-whatsapp" data-bs-toggle="tooltip" title="Chat with us" onClick={handleWhatsAppClick}>
                 <FontAwesomeIcon className="heartbeat" icon={faWhatsapp} size="2x" />
-            </div>
+            </div> */}
         </>
     );
 };

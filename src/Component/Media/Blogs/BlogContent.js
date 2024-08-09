@@ -4,11 +4,21 @@ import Mahogany from "../../../images/tree-mahogany.jpg";
 import Elegant from "../../../images/Blog 1 image.jpg";
 import Blog3 from "../../../images/sandalwood.jpg";
 import Blog4 from "../../../images/website-blogs 2.jpg";
+import Blog5 from "../../../images/Blog52.png";
+
 
 import { Link } from "react-router-dom";
 
 const BlogContent = () => {
   const blogPosts = [
+    {
+      image: Blog5,
+      "author": "Groavy Team",
+      "title": "Why Your Next Big Investment Should Be Farmland",
+      "date": "9 August",
+      "link": "/blogs/why-your-next-big-investment-should-be-farmland",
+    "description": "Looking for a secure and profitable investment? Farmland is the key. With rising demand for agricultural land, owning farmland in Jeeganahalli Village, Chikkaballapura Taluk, offers exceptional growth potential and sustainable returns. Invest in Elegant Orchards Estate for a stable, long-term asset with premium amenities."
+  },
     {
       image: Blog4,
       author: "Groavy Team",
@@ -53,18 +63,8 @@ const BlogContent = () => {
     },
 
 
-
-
-    // {
-    //   image: Blog5,
-    //   author: "Groavy Team",
-    //   title: "Transform Your Investment: The Power of Farmland Ownership",
-    //   date: "5 August",
-    //   link: "/blogs/transform-your-investment-the-power-of-farmland-ownership",
-    //   description:
-    //     "Farmland ownership is more than just an investment—it's a commitment to sustainability and future growth. Discover the benefits of owning farmland in Jeeganahalli Village, Chikkaballapura Taluk, and how it can transform your investment portfolio. With a variety of plantations and luxurious amenities, Elegant Orchards Estate offers an unmatched opportunity for growth and prosperity.",
-    // },
-  ];
+   
+      ];
 
   return (
     <div className="bg-light py-5">

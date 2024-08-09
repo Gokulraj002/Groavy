@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import { useNavigate } from "react-router-dom";
 import { notification } from "antd";
 import { FaPhoneAlt, FaWhatsapp, FaEnvelope } from "react-icons/fa";
@@ -19,7 +19,14 @@ const EligantMainForm = () => {
     email: "",
   });
   // const navigate = useNavigate();
-  const [srdId] = useState("66ab7a3a5d8defb63e6e88a4");
+  const [srdId, setSrdId] = useState("66ab7a3a5d8defb63e6e88a4");
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const srd = urlParams.get("srd");
+    if (srd) {
+      setSrdId(srd);
+    }
+  }, []);
 
   const handleChange = (event) => {
     const { name, value } = event.target;

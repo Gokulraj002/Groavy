@@ -3,7 +3,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { realEstateAgentSchema } from './Schema/HomeSchema';
 import { BreadCrumb } from './Schema/BreadCrumb';
-import { blogPostingSchema1, blogPostingSchema2, blogPostingSchema3, blogPostingSchema4 } from './Schema/BlogSchema';
+import { blogPostingSchema1, blogPostingSchema2, blogPostingSchema3, blogPostingSchema4, blogPostingSchema5 } from './Schema/BlogSchema';
  
 const SchemaMarkup = () => {
   return (
@@ -25,6 +25,9 @@ const SchemaMarkup = () => {
       </script>
       <script type="application/ld+json">
         {JSON.stringify(BreadCrumb, null, 2)}
+      </script>
+      <script type="application/ld+json">
+        {JSON.stringify(blogPostingSchema5, null, 2)}
       </script>
     </Helmet>
   );

@@ -13,7 +13,7 @@ const NearByLocation = () => {
       category: "Colleges / Institute",
       time: "within 20 minutes",
       places: [
-        "Ramaiah Institute of Technology",
+        "Upcoming Ramaiah Research and development centre",
         "Nandi Medical College",
         "Shantha Group of Institutions",
         // "Shantha Vidyaniketan School",

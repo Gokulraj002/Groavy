@@ -9,25 +9,19 @@ const amenitiesData = [
   { icon: "fa-theater-masks", title: "Amphitheatre in Park", text: "Open-air venue for events and performances." },
   { icon: "fa-utensils", title: "Cafeteria", text: "Cozy cafeteria for casual dining." },
   { icon: "fa-tree", title: "Red Sandalwood Trees", text: "Red sandalwood trees and fruits." },
-
-  { icon: "fa-road", title: "30 Feet Wide Road", text: "Sturdy hard road inside the project." },
-  // { icon: "fa-water", title: "Water Fountain & Fall", text: "Beautiful water features." },
+  { icon: "fa-road", title: "All are 30 Feet Wide Road", text: "Sturdy hard road inside the project." },
   { icon: "fa-bolt", title: "Continuous Electricity Supply", text: "Continuous electricity supply for comfort." },
   { icon: "fa-tint", title: "Ample Water Supply", text: "Ample water supply from 5 borewells." },
   { icon: "fa-tree", title: "Verdant Landscape", text: "Verdant landscape with 25 trees per plot." },
   { icon: "fa-hand-holding-usd", title: "Lucrative Returns", text: "Lucrative returns from red sandalwood trees." },
-  // { icon: "fa-bed", title: "Guest Rooms", text: "Four guest rooms in clubhouse." },
   { icon: "fa-fire", title: "Campfire Pit", text: "Campfire pit for gatherings." },
   { icon: "fa-dumbbell", title: "Gym", text: "Fully equipped gym." },
   { icon: "fa-seedling", title: "3.02 Acre Park", text: "1.25 acre park inside the project." },
-  // { icon: "fa-ruler", title: "Plot Sizes", text: "Plot sizes ranging from 5700 to 15000 sqft." },
-  { icon: "fa-child", title: "Children's Play Area", text: "Safe and fun play area for children." },
+  { icon: "fa-children", title: "Children's Play Area", text: "Safe and fun play area for children." },
   { icon: "fa-cloud-rain", title: "Storm Drains", text: "Efficient storm water drainage system." },
   { icon: "fa-spa", title: "Yoga Deck", text: "Serene yoga deck for relaxation and meditation." },
   { icon: "fa-bicycle", title: "Cycling and Jogging Tracks", text: "Dedicated cycling and jogging tracks." }
 ];
-
-
 
 const Amenities = () => {
   return (

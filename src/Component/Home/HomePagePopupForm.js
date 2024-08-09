@@ -37,7 +37,7 @@ const HomePagePopupForm = () => {
  
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 10000); // Show form after 10 seconds
+    }, 15000); // Show form after 10 seconds
  
     return () => clearTimeout(timer);
   }, []);

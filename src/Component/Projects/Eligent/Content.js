@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaCheckCircle, FaDownload } from "react-icons/fa";
 import "./css/Content.css";
 import Modal from "react-bootstrap/Modal";
@@ -21,7 +21,14 @@ function Content() {
     whatsapp: "",
     email: "",
   });
-  const [srdId] = useState("66ab7a3a5d8defb63e6e88a4"); // Added srdId
+  const [srdId,setSrdId] = useState("66ab7a3a5d8defb63e6e88a4"); // Added srdId
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const srd = urlParams.get("srd");
+    if (srd) {
+      setSrdId(srd);
+    }
+  }, []);
  
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -103,7 +110,7 @@ function Content() {
       templateParams: [],
       source: "new-landing-page form",
       media: {
-        url: "https://www.groavy.com/broucher[1].pdf",
+        url: "https://www.groavy.com/broucher.pdf",
         filename: "ElegantOrchardsEstate"
       },
       buttons: [],

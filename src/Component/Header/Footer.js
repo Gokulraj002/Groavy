@@ -290,7 +290,7 @@ const Footer = () => {
                     style={{ color: "#ccc" }}
                     onClick={(e) => handleLinkClick("tel:6366829999", e)}
                   >
-                    +91 6366829999
+                    +91 63668 29999
                   </Link>
                 </p>
               </div>

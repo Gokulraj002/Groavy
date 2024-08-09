@@ -19,9 +19,11 @@ import MahoganyBlog from './Component/Media/Blogs/ReadMoreBlogs/Mahogany';
 import SandalwoodBlogs from './Component/Media/Blogs/ReadMoreBlogs/SandalwoodBlog3';
 import FourthBlog from './Component/Media/Blogs/ReadMoreBlogs/FourthBlog';
 import CareerHome from './Component/Careers/CareerHome';
-import Analytics from './Analytics';
+import Analytics from './ScriptTags/Analytics';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import WhatsAppWidget from './WhatsAppWidget';
+import FifthBlog from './Component/Media/Blogs/ReadMoreBlogs/FifthBlog';
 
 function App() {
   useEffect(() => {
@@ -39,6 +41,8 @@ function App() {
     <HelmetProvider>
       <BrowserRouter>
       <Analytics />
+      <WhatsAppWidget/>
+
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Homes />} />
@@ -54,12 +58,16 @@ function App() {
             <Route path="blogs/elegantorchards-embraces-green-growth-with-mahoganytrees" element={<MahoganyBlog />} />
             <Route path="blogs/invest-in-sandalwood-on-your-farm-with-elegant-orchards-estate" element={<SandalwoodBlogs />} />
             <Route path="blogs/farmland-vs-mutual-funds-which-offers-better-investment-returns" element={<FourthBlog />} />
+            <Route path="blogs/why-your-next-big-investment-should-be-farmland" element={<FifthBlog />} />
+
+            
             <Route path="privacypolicies" element={<PrivacyPolicy />} />
             <Route path="termsandcondition" element={<TermsAndConditions />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
+
     </HelmetProvider>
   );
 }

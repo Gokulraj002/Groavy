@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { Modal, Button } from "react-bootstrap";
 import EligantMainForm from "./EligantMainForm"; // Assuming you have this component
-import Banner from "./ElegantImages/elegant-banner2.jpg"; // Replace with the correct path to your image
+import Banner from "./ElegantImages/ele-pop1.jpg"; // Replace with the correct path to your image
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -13,7 +13,7 @@ function ScrollModal() {
   }, []);
 
   useEffect(() => {
-    const timer = setTimeout(showModalCallback, 10000); 
+    const timer = setTimeout(showModalCallback, 1000);
 
     return () => {
       clearTimeout(timer);
@@ -32,7 +32,7 @@ function ScrollModal() {
           tabIndex="-1"
           aria-labelledby="enquiryModalLabel"
           aria-hidden="true"
-          dialogClassName="modal-lg"
+          dialogClassName="modal-xl"
           fade
         >
           <Modal.Header className="bg-white">
@@ -53,8 +53,14 @@ function ScrollModal() {
               <div className="col-12 col-lg-6 ">
                 <EligantMainForm />
               </div>
-              <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center p-4 p-0" >
-                <img src={Banner} alt="Eligent orchards-Banner" width={'100%'} height={'auto'} className="w-100" />
+              <div className="col-12 col-lg-6 pe-4 p-0 ">
+                <img
+                  src={Banner}
+                  alt="Eligent orchards-Banner"
+                  width={"100%"}
+                  height={"auto"}
+                  className="w-100 "
+                />
               </div>
             </div>
           </Modal.Body>

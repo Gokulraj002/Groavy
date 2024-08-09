@@ -161,7 +161,7 @@ const ContactForm = () => {
                     style={{ cursor: "pointer" }}
                     onClick={handlePhoneClick}
                   >
-                    +91 6366829999
+                    +91 63668 29999
                   </span>
                 </li>
                 <li className="d-flex align-items-center mb-4 para-color1">

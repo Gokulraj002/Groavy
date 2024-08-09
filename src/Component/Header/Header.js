@@ -307,7 +307,7 @@ const Header = () => {
                   onClick={handlePhoneCall}
                 >
                   <FontAwesomeIcon icon={faPhone} className="me-2" />
-                  +91 6366829999
+                  +91 63668 29999
                 </button>
               </div>
             </div>

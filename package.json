@@ -28,6 +28,7 @@
     "react-helmet-async": "^2.0.5",
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.10.3",
+    "react-lazyload": "^3.2.1",
     "react-medium-image-zoom": "^5.2.4",
     "react-multi-carousel": "^2.8.5",
     "react-phone-input-2": "^2.15.1",
@@ -47,28 +48,28 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-  "postbuild": "react-snap"
+    "postbuild": "react-snap"
   },
-"reactSnap": {
-  "source": "build",
-  "include": [
-    "/",
-    "/about",
-    "/elegantorchards",
-    "/timbervalley",
-    "/service",
-    "/blogs",
-    "/news",
-    "/careers",
-    "/contact",
-    "/blogs/grow-your-future-benefits-of-owning-managing-farmland",
-    "/blogs/elegantorchards-embraces-green-growth-with-mahoganytrees",
-    "/blogs/invest-in-sandalwood-on-your-farm-with-elegant-orchards-estate",
-    "/blogs/farmland-vs-mutual-funds-which-offers-better-investment-returns",
-    "/privacypolicies",
-    "/termsandcondition"
-  ]
-},
+  "reactSnap": {
+    "source": "build",
+    "include": [
+      "/",
+      "/about",
+      "/elegantorchards",
+      "/timbervalley",
+      "/service",
+      "/blogs",
+      "/news",
+      "/careers",
+      "/contact",
+      "/blogs/grow-your-future-benefits-of-owning-managing-farmland",
+      "/blogs/elegantorchards-embraces-green-growth-with-mahoganytrees",
+      "/blogs/invest-in-sandalwood-on-your-farm-with-elegant-orchards-estate",
+      "/blogs/farmland-vs-mutual-funds-which-offers-better-investment-returns",
+      "/privacypolicies",
+      "/termsandcondition"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

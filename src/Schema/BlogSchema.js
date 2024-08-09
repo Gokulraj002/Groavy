@@ -100,3 +100,30 @@ export const blogPostingSchema4 ={
 },
 "datePublished": "2024-08-01"
 }
+
+export const blogPostingSchema5 =
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.groavy.com/blogs/why-your-next-big-investment-should-be-farmland"
+  },
+  "headline": "Why Your Next Big Investment Should Be Farmland",
+  "description": "Looking for a secure and profitable investment? Farmland is the key. With rising demand for agricultural land, owning farmland in Jeeganahalli Village, Chikkaballapura Taluk, offers exceptional growth potential and sustainable returns. Invest in Elegant Orchards Estate for a stable, long-term asset with premium amenities.",
+  "image": "https://www.groavy.com/static/media/Blog52.a8a2d07c510916b7bb6a.png",  
+  "author": {
+    "@type": "Organization",
+    "name": "Groavy Buildcon",
+    "url": "https://www.groavy.com/"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Groavy Buildcon",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.groavy.com/static/media/logo%20size.9f4e86d3a280099f4b58.png"
+    }
+  },
+  "datePublished": "2024-08-09"
+}
